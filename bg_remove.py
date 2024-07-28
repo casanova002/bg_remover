@@ -7,7 +7,7 @@ import base64
 st.set_page_config(layout="wide", page_title="Image Background Remover")
 
 # Include Google Analytics tracking
-st.components.html(filename="google_analytics.html")
+st.write("""<script src="google_analytics.js"></script>""")
 
 st.write("## Remove background from your image")
 st.write(
